@@ -1,0 +1,84 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+h1{
+    background-color: cadetblue;
+}
+button {
+    background-color: darkcyan;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button:hover{
+    background-color: brown;
+}
+p{
+    size: 15px;
+}
+label {
+    font-size: 25px;
+}
+div {
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input:hover {
+    background-color: green;
+}
+.imgmas {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    padding-left: 1650px;
+}
+.modal {
+    position: absolute;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.modal .formulario{
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function:ease-in;
+    opacity: 0;
+}
+.formulario.animar{
+    position: relative;
+    opacity: 1;
+}
+.formulario.cerrar{
+    opacity: 0;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.contenidogasto {
+    align-items: center;
+    gap: 2rem;
+}
+.imgmasnormal {
+    height: 20px;
+    width: 20px;
+}
+.fijar{
+    overflow: hidden;
+    height: 100vh;
+}
+.imgcirculo {
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.negativo {
+    color:red;
+}
